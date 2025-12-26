@@ -19,6 +19,24 @@ What you'll find
 - Step-by-step annotated examples that cover Python basics.
 - Short exercises such as even/odd separation, multiplication tables, and a guess-the-number game.
 - Practical usage examples showing input/output and simple control flow.
+ 
+## OOP Notebooks and Assignments
+
+- `OOP.ipynb` — an interactive Jupyter notebook that covers Object-Oriented Programming topics with examples and exercises. Main sections include:
+	- Basic Class and Object
+	- Class Method and `self`
+	- Inheritance
+	- Encapsulation (public/protected/private attributes)
+	- Polymorphism
+	- Class Variables
+	- Static Methods
+	- Property Decorators
+	- Class Inheritance and `isinstance()`
+	- Multiple Inheritance
+
+	Open this notebook in Jupyter or VS Code to run cells interactively: [OOP.ipynb](OOP.ipynb)
+
+- `OOP_Major Assignment.py` — a Python script containing the major assignment for the OOP section (exercises, example implementations, and test runs). Open or run it with Python to execute the included examples: [OOP_Major Assignment.py](OOP_Major%20Assignment.py)
 
 Usage
 -----
