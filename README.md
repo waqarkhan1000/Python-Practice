@@ -40,6 +40,40 @@ What you'll find
 
 Usage
 -----
+
+Detailed: `OOP_Major Assignment.py`
+---------------------------------
+- Purpose: a self-contained script implementing a small OOP example set used as the "major assignment" for the OOP notebook. It demonstrates class design, inheritance, property decorators, class/instance methods, and simple runtime tests.
+
+- Key classes and responsibilities:
+	- `Person` — base class with `name`, `age`, `info()` and `from_string()` classmethod.
+	- `Student` — derives from `Person`, adds private grade storage with `@property` getter/setter, `school_name` class variable, and `show_details()`.
+	- `Teacher` — derives from `Person`, provides `show_details()` and static method `is_eligible(age)`.
+	- `Course` — demonstrates property decorators for `course_title` with validation.
+	- `Teacher_assistant` — example of multiple inheritance (`Student`, `Teacher`) with a `role()` method.
+
+- Helper function:
+	- `check_role(obj)` — returns a short string identifying whether an object is a `Student` or `Teacher` (uses `isinstance`).
+
+- Example runtime behavior (what the script does when executed):
+	- Creates sample objects (`Student`, `Teacher`, `Teacher_assistant`).
+	- Updates grades via the setter.
+	- Prints details and demonstrates `isinstance()` and MRO via `Teacher_assistant.mro()`.
+
+- How to run:
+
+	1. From the repo root run:
+
+		 ```powershell
+		 python "OOP_Major Assignment.py"
+		 ```
+
+	2. Or open `OOP_Major Assignment.py` in the editor and run the file.
+
+- Notes / suggestions:
+	- The script is safe to run with Python 3.8+. No external packages required.
+	- The script prints example outputs; use it as a reference or extend it for additional exercises.
+
 - Open [Python_Basics.ipynb](Python_Basics.ipynb) in Jupyter or VS Code and run cells interactively.
 - No external dependencies beyond the Python standard library for the included examples.
 
